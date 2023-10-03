@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+tbody tr td {
+  @apply px-4 py-2 border border-b-slate-900
+}
+
+tbody tr td:last-child {
+  @apply pr-0
+}
+
+tbody tr td:first-child {
+  @apply pl-1
+}
